@@ -1,0 +1,23 @@
+{
+	"name": "erc-20-token-02",
+	"version": "1.0.0",
+	"description": "create your own ERC-20 token on Ethereum’s Goerli testnet using Alchemy, MetaMask, HardHat, and Solidity code snippets. At the end of this tutorial, you will be able to deploy your own ERC-20 token smart contract.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"erc-20-token"
+	],
+	"author": "Oana Anghelachi",
+	"license": "ISC",
+	"dependencies": {
+		"@nomicfoundation/hardhat-toolbox": "^5.0.0",
+		"@openzeppelin/contracts": "^5.0.2",
+		"dotenv": "^16.4.5",
+		"ethers": "^6.11.1"
+	},
+	"devDependencies": {
+		"hardhat": "^2.22.2"
+	}
+}
